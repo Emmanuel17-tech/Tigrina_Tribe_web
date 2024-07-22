@@ -287,6 +287,17 @@
      font-size: 23px;
      margin-bottom: 15px;
  }
+
+ .alert{
+    width: 100%;
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900%;
+    display: none;
+ }
  
  #contact {
      display: flex;

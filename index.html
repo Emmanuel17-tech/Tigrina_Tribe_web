@@ -136,8 +136,9 @@
     <section id="contact">
         <h1 class="headings">CONTACT</h1>
         <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter your Name:">
-            <input type="email" name="email" class="input" placeholder="Enter a valid Email">
+            <div class="alert">Your message sent</div>
+            <input type="text" id="name" class="input" placeholder="Enter your Name:">
+            <input type="email" id="email" class="input" placeholder="Enter a valid Email">
             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea> 
             <input type="submit" value="SEND" id="send">
         </form>
@@ -158,5 +159,8 @@
     </section>
     <button id="back-to-top" title="Back to Top">↑</button>
     <script src="scripts.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+    <script src="./mail.js"></script>
 </body>
 </html>
